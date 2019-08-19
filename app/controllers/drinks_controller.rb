@@ -1,4 +1,4 @@
-class DrinksController < ApiController
+class DrinksController < ApplicationController
   # GET /drinks
   def index
     @drinks = Drink.all
